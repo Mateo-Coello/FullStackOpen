@@ -8,7 +8,7 @@ sequenceDiagram
     server->>browser: Location: /exampleapp/notes
     deactivate server
     
-    Note left of browser: The server redirects the browser to /exampleapp/notes
+    Note left of server: The server redirects the browser to /exampleapp/notes
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
