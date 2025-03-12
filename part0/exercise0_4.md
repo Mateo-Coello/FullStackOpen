@@ -4,8 +4,8 @@ sequenceDiagram
     participant server
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/notes
-    Note right of browser: { content: "May the force be with you!", date:"2025-03-12T21:42:26.497Z" }
     activate server
+    Note right of browser: { content: "May the force be with you!", date:"2025-03-12T21:42:26.497Z" }
     server-->>browser: Location: /exampleapp/notes
     deactivate server
     
