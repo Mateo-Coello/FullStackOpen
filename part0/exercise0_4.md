@@ -8,7 +8,7 @@ sequenceDiagram
     server->>browser: Location: /exampleapp/notes
     deactivate server
     
-    Note right of browser: Added the comment "May the force be with you!"
+    Note left of browser: The server redirects the browser to /exampleapp/notes
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
